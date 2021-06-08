@@ -38,6 +38,7 @@ class Generator
         for ($i = 0; $i < 4; ++$i) {
             $characterPos = strpos($alphabet, substr($department, $i, 1));
 
+            // if the character was not in alphabet treat is as numeric
             if (false === $characterPos) {
                 $controlNumber += strval(substr($department, 2, 1)) * $weightsMap[$i];
 
