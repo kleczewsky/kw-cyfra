@@ -1,13 +1,14 @@
 # kw-cyfra
 
-A composer package that contains means to calculate a control number for given kw
+This package can be used to calculate a control number for polish mortgage register identificator
+(https://pl.wikipedia.org/wiki/Nowa_Ksi%C4%99ga_Wieczysta)
 
 ## Instalation
 
 Via Composer
 
 ```sh
-        $ composer require kleczewsky/kw-cyfra
+    $ composer require kleczewsky/kw-cyfra
 ```
 
 ## Usage
