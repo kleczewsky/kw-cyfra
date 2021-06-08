@@ -1,0 +1,21 @@
+{
+    "name": "kleczewsky/kw-cyfra",
+    "description": "Generator cyfry kontrolnej dla numeru ksiegi wieczystej",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eryk Kleczewski",
+            "email": "ekkleczewski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kleczewsky\\kwCyfra\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
